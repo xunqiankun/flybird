@@ -60,7 +60,7 @@ public class AuthenticationRestController {
             token = jwtTokenUtil.generateToken(userDetails, device);
             ret = "succeed";
 		} catch (Exception e) {
-			ret = "failure";
+			ret = "failure"; 
 		}
     	Map<String, Object> att = new HashMap<String, Object>();
     	att.put("ret", ret);
