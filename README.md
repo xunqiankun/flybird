@@ -1,13 +1,3 @@
-# JWT Spring Security Demo
-
-![Screenshot from running application](etc/screenshot-jwt-spring-security-demo.png?raw=true "Screenshot JWT Spring Security Demo")
-
-##About
-This is just a simple demo for using **JWT (JSON Web Token)** with **Spring Security** and
-**Spring Boot**. This solution is partially based on the blog entry
-[REST Security with JWT using Java and Spring Security](https://www.toptal.com/java/rest-security-with-jwt-spring-security-and-java)
-and the demo project [Cerberus](https://github.com/brahalla/Cerberus). Thanks to the authors!
-
 ##Requirements
 This demo is build with with Maven and Java 1.8.
 
@@ -57,38 +47,4 @@ spring:
 *Hint: For other databases like MySQL sequences don't work for ID generation. So you have to change the GenerationType in the entity beans to 'AUTO' or 'IDENTITY'.*
 
 You can find a reference of all application properties [here](http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html).
-
-##Docker
-This project has a docker image. You can find it at [https://hub.docker.com/r/hubae/jwt-spring-security-demo/](https://hub.docker.com/r/hubae/jwt-spring-security-demo/).
-
-##Questions
-If you have project related questions please take a look at the [past questions](https://github.com/szerhusenBC/jwt-spring-security-demo/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%2Cclosed%20label%3Aquestion%20) or create a new ticket with your question.
-
-*If you have questions that are not directly related to this project (e.g. common questions to the Spring Framework or Spring Security etc.) please search the web or look at [Stackoverflow](http://www.stackoverflow.com).*
-
-Sorry for that but I'm very busy right now and don't have much time.
-
-## Interesting projects
-
-* [spring-security-pac4j](https://github.com/pac4j/spring-security-pac4j) a Spring Boot integration for Pac4j (a Java security engine that coveres JWT beside others)
-
-##External resources
-
-Dan Vega (https://twitter.com/therealdanvega) created a video that explained this project quite fine. Thanks to him!
-
-https://youtu.be/mD3vmgksvz8
-
-##Creator
-
-**Stephan Zerhusen**
-
-* <https://twitter.com/stzerhus>
-* <https://github.com/szerhusenBC>
-
-##Copyright and license
-
-The code is released under the [MIT license](LICENSE?raw=true).
-
----------------------------------------
-
-Please feel free to send me some feedback or questions!
+ 
